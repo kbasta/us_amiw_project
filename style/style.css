@@ -1,12 +1,15 @@
 body{
-    
+    background-color: #1071cb;
+    color: #fff;
+    font-family: Helvetica, Verdana, sans;
 }
 
 #kontener{
     width: 960px;
+    margin: 0 auto;
 }
 
-#logo, .primary{
+#logo, .primary, .tile{
     float: left;
 }
 
@@ -42,4 +45,35 @@ nav ul li:last-child{
 
 .hidden{
     display: none;
+}
+
+.tile{
+    position: relative;
+    min-height: 230px;
+    width: 200px;
+    background-color: #fff;
+    color: #111;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 50px 10px;
+    border-radius: 10px;
+}
+
+.tile p span{
+    font-weight: bold;
+}
+
+.tile a{
+    display: block;
+    position: absolute;
+    width: 120px;
+    bottom: 16px;
+    left: 40px;
+    background-color: #0a67d4;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 8px 10px;
 }
