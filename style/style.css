@@ -1,3 +1,45 @@
 body{
     
 }
+
+#kontener{
+    width: 960px;
+}
+
+#logo, .primary{
+    float: left;
+}
+
+#contact, .secondary{
+    float: right;
+}
+
+nav ul{
+   list-style: none;
+   padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    padding: 5px 1em;
+}
+
+nav ul li:last-child{
+    float: right;
+}
+
+.primary{
+    width: 720px;
+}
+
+.secondary{
+    width: 240px;
+}
+
+.clear{
+    clear: both;
+}
+
+.hidden{
+    display: none;
+}

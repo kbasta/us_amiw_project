@@ -8,29 +8,52 @@
 <body>
     <div id="kontener">
         <header>
-            <div id="logo">
-                logo
-            </div>
-            <div id="contact">
-                kontakt
-            </div>
-            <nav>
-                menu
+            <h1 id="logo">
+                <img src='img/logo.png' alt='BICYKL - wypoczalnia rowerów'>
+            </h1>
+            <section id="contact" class='vcard'>
+                <span class='fn org hidden'>Bicykl</span>
+                <a href='tel:+48987987987'>987 987 987</a> <br />
+                <a href='mailto:info@bicykl.com'>info@bicykl.com</a>
+            </section>
+            <nav class='clear'>
+                <ul>
+                    <li>
+                        O nas
+                    </li>
+                    <li>
+                        Oferta
+                    </li>
+                    <li>
+                        Rezerwacja
+                    </li>
+                    <li>
+                        Moje konto
+                    </li>
+                </ul>
             </nav>
         </header>
         
         
         <div id="content">
-            <div id="mainContent">
+            <div id="mainContent" class='primary' role='main'>
                 główna zawartość
             </div>
-            <div id="addContent">
-                dodatkowa zawartość
-            </div>
+            <aside id="addContent" class='secondary'>           
+                <section>
+                    <h2>Tylko w tym tygodniu!</h2>
+                    <p>W tym tygodniu ceny wypożyczenia rowerów górskich są niższe o 10%. Nie przegap okazji, wyskocz w górki!</p>
+                </section>
+                
+                <section>
+                    <h2>Rodzinna jazda</h2>
+                    <p>W lipcu i sierpniu możesz wypożyczyć rowery dla całej rodziny, a płacisz tylko za dwie dorosłe osoby!
+                        Szczegóły promocji w regulaminie.</p>
+                </section>
+            </aside>
         </div>
         
-        
-        <footer>
+        <footer class='clear'>
             stopka
         </footer>
     </div>
